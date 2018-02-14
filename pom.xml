@@ -43,15 +43,33 @@
 
         <!--WebJars-->
         <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>angularjs</artifactId>
-            <version>1.4.8</version>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>angular</artifactId>
+            <version>1.6.9</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>org.webjars</groupId>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>angular-route</artifactId>
+            <version>1.6.9</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>angular-resource</artifactId>
+            <version>1.6.9</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
             <artifactId>bootstrap</artifactId>
-            <version>3.3.7-1</version>
+            <version>3.3.7</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars.bower</groupId>
+            <artifactId>restangular</artifactId>
+            <version>1.6.1</version>
             <scope>runtime</scope>
         </dependency>
 
