@@ -1,4 +1,4 @@
-app.controller('page1Controller', function ($scope, Restangular) {
+app.controller('page1Controller', ['$scope', 'Restangular', function ($scope, Restangular) {
 
     $scope.title = 'Page title';
 
@@ -6,4 +6,4 @@ app.controller('page1Controller', function ($scope, Restangular) {
         $scope.title = data.title;
     });
 
-});
+}]);
