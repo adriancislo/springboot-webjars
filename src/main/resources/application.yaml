@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: WebApp
+    version: 1.0.0.0-SNAPSHOT

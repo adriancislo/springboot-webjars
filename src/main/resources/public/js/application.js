@@ -10,3 +10,9 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'views/page2.html'
         });
 }]);
+
+app.controller('appController', ['Restangular', function (Restangular) {
+    var app = this;
+
+    app.version = 'Unknown';
+}]);
